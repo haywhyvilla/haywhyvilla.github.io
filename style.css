@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 37.5rem) {
   .main {
     max-height: 108.8rem;
+    margin-right: 20rem;
   }
 }
 .content {
@@ -42,6 +43,13 @@ body {
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+}
+
+@media screen and (max-width: 37.5rem) {
+  .content {
+    gap: 5.6rem;
+    margin-top: 5rem;
+  }
 }
 
 .profile {
