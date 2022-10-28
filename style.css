@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik" sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  background: #ffffff;
+}
+.main {
+  /* margin-top: 4rem; */
+  max-width: 144rem;
+  max-height: 115.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5rem;
+  margin-left: 20rem;
+  padding: 6.4rem 11.2rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+  .main {
+    max-height: 108.8rem;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5.6rem;
+  max-width: 115.2rem;
+  max-height: 77.4rem;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 2rem;
+  isolation: isolate;
+  max-width: 115.2rem;
+  max-height: 14.2rem;
+  flex: none;
+  margin-bottom: -3rem;
+  margin-right: 18rem;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#profile__im {
+  max-width: 8.8rem;
+  max-height: 8.8rem;
+  background: url(.jpg);
+  border-radius: 27.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+#twitter {
+  max-width: 115.2rem;
+  max-height: 3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 2.4rem;
+  max-width: 115.2rem;
+  max-height: 57.6rem;
+  margin-right: 18rem;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.link_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4rem 3.2rem;
+  gap: 8px;
+  width: 115.2rem;
+  height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+@media screen and (max-width: 37.5rem) {
+  .link_all {
+    width: 34.3rem;
+    height: 6.8rem;
+  }
+}
+
+#btn__zuri {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+#books {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#book__python {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#pitch {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#book__design {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+  margin-bottom: -5rem;
+  max-width: 121.6rem;
+  max-height: 7.2rem;
+  background: #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+@media screen and (max-width: 37.5rem) {
+  .link_all {
+    width: 34.3rem;
+    height: 6.8rem;
+  }
+}
+.footer {
+  margin-left: 18rem;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 0px;
+  gap: 32px;
+  max-width: 121.6rem;
+  max-height: 6.4rem;
+  border-top: 1px solid #eaecf0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@media screen and (max-width: 37.5rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
