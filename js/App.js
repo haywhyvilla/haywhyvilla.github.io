@@ -1,15 +1,18 @@
-import { Route, Routes } from "react-router-dom";
+import Linktree from "./Linktree";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Contact from "./Contact";
 
-function App() {
-  function App() {
-    return (
-      <Routes>
-        <Route path="/" element={<WelcomeBack />} />
-
-        <Route />
-      </Routes>
-    );
-  }
-}
+const App = () => {
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Linktree />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
 export default App;
