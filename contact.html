@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <div class="heading">
+          <h1>Contant Me</h1>
+          <p>Hi there, contact me to ask me about anything you have in mind</p>
+        </div>
+
+        <form class="cta-form" action="#">
+          <div class="name">
+            <div class="name-box">
+              <label for="first-name">First Name</label>
+              <input
+                id="first-name"
+                type="text"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+            <div class="name-box">
+              <label for="last-name">Last Name</label>
+              <input
+                id="last-name"
+                type="text"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
+          </div>
+          <div class="email">
+            <label for="email">Email Address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="yourname@email.com"
+              required
+            />
+          </div>
+          <div class="message">
+            <label for="message">Message</label>
+            <br />
+            <br />
+            <textarea name="" id="message" cols="50" rows="4">
+Send me a message and I will reply you as soon as possible...</textarea
+            >
+          </div>
+          <div class="input_field_terms">
+            <label class="check">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+              You agreed to providing your data to {name} who may contact you.
+            </label>
+          </div>
+          <button id="btn-submit">Send message</button>
+        </form>
+      </div>
+
+      <footer>
+        <div class="foot-container">
+          <img src="/img/Vector.png" alt="" />
+          <p>HNG Internship 9 Frontend Task</p>
+          <img src="/img/I4G.png" alt="" />
+        </div>
+      </footer>
+    </section>
+    <script src="/App.js"></script>
+    <script src="/index.js"></script>
+    <script src="/welcomeBack.js"></script>
+    <script src="/React.js"></script>
+  </body>
+</html>

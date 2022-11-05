@@ -1,0 +1,22 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "week 1 task",
+  "main": "welcomeBack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haywhyvilla/HNG-week-1-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haywhyvilla/HNG-week-1-task/issues"
+  },
+  "homepage": "https://github.com/haywhyvilla/HNG-week-1-task#readme",
+  "dependencies": {
+    "react-router-dom": "^6.4.3"
+  }
+}

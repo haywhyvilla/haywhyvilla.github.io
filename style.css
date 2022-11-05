@@ -29,7 +29,7 @@ body {
 @media screen and (max-width: 37.5rem) {
   .main {
     max-height: 108.8rem;
-    margin-right: 20rem;
+    margin: 0 auto;
   }
 }
 .content {
@@ -43,13 +43,6 @@ body {
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-}
-
-@media screen and (max-width: 37.5rem) {
-  .content {
-    gap: 5.6rem;
-    margin-top: 5rem;
-  }
 }
 
 .profile {
@@ -195,7 +188,39 @@ body {
   flex-grow: 1;
 }
 
+#background {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
 #book__design {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#contact {
   max-width: 115.2rem;
   max-height: 7.6rem;
   background: #eaecf0;
