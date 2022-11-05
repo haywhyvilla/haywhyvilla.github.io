@@ -12,17 +12,17 @@ const router = createBrowserRouter([
     path: "/",
     contact: (
       <div>
-        <h1>Hello there</h1>
-        <Link to="about">About Us</Link>
+        <h1>Hello World</h1>
+        <Link to="contact">About Us</Link>
       </div>
     ),
   },
   {
-    path: "about",
+    path: "contact",
     element: <div>About</div>,
   },
 ]);
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("contact")).render(
   <RouterProvider router={router} />
 );
